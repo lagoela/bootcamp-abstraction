@@ -1,5 +1,6 @@
 package com.lagoela;
 
+import com.lagoela.domain.Conteudo;
 import com.lagoela.domain.Curso;
 import com.lagoela.domain.Mentoria;
 
@@ -24,6 +25,9 @@ public class Main {
         mentoriaJs.setTitulo("Usando promises em javascript");
         mentoriaJs.setDescricao("Aprenda a usar promises e trabalhar assincronamente com Js");
         mentoriaJs.setDataDeInicio(LocalDate.now());
+
+        Conteudo conteudoJava = new Curso();
+        Conteudo conteudoJs = new Mentoria();
 
         System.out.println(cursoJs);
         System.out.println(cursoJava);
